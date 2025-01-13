@@ -43,5 +43,8 @@ public class UserController extends BasedController{
         }
     }
 
-
+    @PostMapping("/login")
+    public ResponseEntity<?>signIn(){
+        return ResponseEntity.ok("ok");
+    }
 }
