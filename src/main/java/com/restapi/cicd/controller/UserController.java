@@ -45,7 +45,6 @@ public class UserController extends BasedController{
 
     @PostMapping("/login")
     public ResponseEntity<?>signIn(){
-        logger.debug("testing git");
         return ResponseEntity.ok("ok");
     }
 }
